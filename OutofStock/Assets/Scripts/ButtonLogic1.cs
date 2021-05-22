@@ -21,11 +21,13 @@ public class ButtonLogic1 : MonoBehaviour
         {
             buyButton.interactable = true;
             buttonText.text = "IN STOCK!";
+            buyButton.GetComponentInChildren<Image>().color = new Color(0,250,0);
         }
         if ( int.Parse(Timer.text) < 5)
         {
             buyButton.interactable = false;
-            buttonText.text = "OUT OF STOCK";     
+            buttonText.text = "OUT OF STOCK";
+            buyButton.GetComponentInChildren<Image>().color = new Color(255, 172, 185);
         }
     }
 }
