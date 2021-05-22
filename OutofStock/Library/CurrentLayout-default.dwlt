@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 942
-  m_MinSize: {x: 579, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 578, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 102
+  controlID: 123
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 553
     height: 942
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -150,7 +150,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 992
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 36
+  controlID: 56
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 37
+  controlID: 57
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -308,9 +308,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 487.495, y: 306.33557, z: -163.15022}
+    m_Target: {x: 448.63742, y: 357.965, z: -36.3125}
     speed: 2
-    m_Value: {x: 491.02823, y: 312.58234, z: -161.75}
+    m_Value: {x: 448.63742, y: 357.965, z: -36.3125}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -360,9 +360,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 371.31693
+    m_Target: 430.42477
     speed: 2
-    m_Value: 388.81354
+    m_Value: 430.42477
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -518,20 +518,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\nuhas\OneDrive\Documents\GitHub\OutofStock\OutofStock
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 40390000
-    m_LastClickedID: 14656
-    m_ExpandedIDs: 000000003c39000000ca9a3b
+    m_SelectedIDs: 3c3a0000
+    m_LastClickedID: 14908
+    m_ExpandedIDs: 00000000323a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -559,7 +559,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003c390000
+    m_ExpandedIDs: 00000000323a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -684,7 +684,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: aa9effffc49effffe29efffff69effff7ea4ffff02a5ffff22a5ffff3ea5ffff56a5ffff70a5ffff84a5ffffa8a5ffff42a7ffff5ea7ffff7aa7ffff98a7ffffaea7ffffa4a8ffffc4a8ffff2ca9ffff96aaffffb0aaffff40abffffdaabfffff4abffff34acffff42acffff52acffff6cacffff06adffff5aafffffb2b2ffffa2b4ffffbeb4ffffccb4ffffdeb4ffffe6b4fffff8b4ffff0eb5ffffa0b6ffff46b7ffff26cbffff42cbffffa2cbffffc6cbffff18ccffffc0d9ffffdcd9ffffecd9ffff48ecffffb8ecffffa4edffff76eeffff6eefffff7aefffffe2efffff2af0ffff54f0ffffc8f3ffffd4f3fffffaf3ffffc2faffff58fbffff143e0000303e0000d03f0000ec3f00000a430000104300002a4300004443000078430000f445000006460000f4460000724700007c470000b64b0000ca4b0000cc500000925100002e5200003e520000d6520000e6520000d6530000e653000020560000005b0000b8640000d2640000
+      m_ExpandedIDs: a2efffffc0efffff4efbffffcc390000e6390000fe390000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

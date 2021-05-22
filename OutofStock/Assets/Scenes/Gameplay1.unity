@@ -474,7 +474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ee3495809cbbb04f8921f37f3c807b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeStart: 2
+  timeStart: 9
   textBox: {fileID: 355446434}
 --- !u!1 &823641253
 GameObject:
@@ -506,6 +506,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Timer: {fileID: 355446434}
+  PS5Indicator: {fileID: 169382900}
   PurchasedPS5: 0
 --- !u!4 &823641255
 Transform:
@@ -752,6 +753,7 @@ GameObject:
   - component: {fileID: 2054228092}
   - component: {fileID: 2054228091}
   - component: {fileID: 2054228090}
+  - component: {fileID: 2054228093}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -821,7 +823,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2054228091}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 823641254}
+        m_MethodName: ButtonSuccesfullyPushed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2054228091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -859,3 +872,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2054228088}
   m_CullTransparentMesh: 0
+--- !u!114 &2054228093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054228088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7782990f439f1464db2683634626f236, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buyButton: {fileID: 2054228090}
+  Timer: {fileID: 355446434}

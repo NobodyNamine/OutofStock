@@ -10,12 +10,14 @@ public class GameManager : MonoBehaviour
     static int levelNum = 0;
 
     public Text Timer;
+    public Text PS5Indicator;
     public bool PurchasedPS5;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        PS5Indicator.text = numOfPS5.ToString();
+        PurchasedPS5 = false;
     }
 
     // Update is called once per frame
@@ -47,6 +49,16 @@ public class GameManager : MonoBehaviour
             }
             
         }
+    }
+
+    public void ButtonSuccesfullyPushed()
+    {
+        Debug.Log("Button PUshed!");
+            increaseLevelNum();
+             PurchasedPS5 = true;
+            numOfPS5++;
+            PS5Indicator.text = numOfPS5.ToString();
+            SceneManager.LoadScene("Success");            
     }
 
     public void increaseLevelNum()
