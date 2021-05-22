@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     static int numOfPS5 = 0;
-    static int levelNum = 0;
+    static int levelNum = 1;
 
     public Text Timer;
     public Text PS5Indicator;
@@ -32,8 +32,8 @@ public class GameManager : MonoBehaviour
         {
             int randNum = Random.Range(1, 4);
 
-            increaseLevelNum();
-
+            NextLevel();
+            levelNum++;
             //Show one random of 3 fail screens
             switch (randNum)
             { 
@@ -54,17 +54,19 @@ public class GameManager : MonoBehaviour
     public void ButtonSuccesfullyPushed()
     {
         Debug.Log("Button PUshed!");
-            increaseLevelNum();
-             PurchasedPS5 = true;
+            NextLevel();
+        levelNum++;
+        PurchasedPS5 = true;
             numOfPS5++;
             PS5Indicator.text = numOfPS5.ToString();
             SceneManager.LoadScene("Success");            
     }
 
-    public void increaseLevelNum()
+    public void NextLevel()
     {
-        levelNum++;
+        
+        SceneManager.LoadScene(levelNum);
+        PurchasedPS5 = false;
     }
-
 }
 
